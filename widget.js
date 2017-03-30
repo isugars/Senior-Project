@@ -1,6 +1,7 @@
 /**
  * Created by Ivy on 3/28/2017.
  */
+"use-strict";
 // METER
 
 let Meter = function Meter($elm, config) {
