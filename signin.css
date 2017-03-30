@@ -19,11 +19,27 @@ html {
     margin-left: auto;
 }
 
-.header {
+.form {
     height: 150px;
     color: white;
     text-align: center;
     margin-top: 20%;
+}
+
+.user{
+    height: auto;
+    border-radius: 5px;
+}
+
+.passwd{
+    height: auto;
+    margin: 5px;
+}
+
+input{
+    height: 50px;
+    width: 350px;
+    padding: 5px;
 }
 
 .signin {

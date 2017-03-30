@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>Sign In</title>
@@ -8,15 +8,21 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 </head>
 <body>
-<div class="header">
-    <h1>Username/email</h1>
-    <h1>Password</h1>
+<div class="content">
+<div class="form">
+    <form>
+        <fieldset style="border: none">
+            <div class="user"><input type="text" id="username" value="Username/email"></div>
+            <div class="passwd"><input type="text" id="password" value="Password"></div>
+        </fieldset>
+    </form>
 </div>
 <div class="content">
     <div class="signinbuttons">
         <div class="signinbut form-toggle-button hvr-grow" id="signin"><h1>Sign In</h1></div>
         <!--<div class="signupbut form-toggle-button hvr-grow" id="signup"><h1>Historical</h1></div>-->
     </div>
+</div>
 </div>
 </body>
 </html>
