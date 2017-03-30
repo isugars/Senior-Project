@@ -61,11 +61,6 @@ $label-color: $grad-color;
 }
 
 
-
-
-//@import url(https://fonts.googleapis.com/css?family=Coda:400,800);
-@import url(https://fonts.googleapis.com/css?family=Coda:400|Roboto+Mono:400,400italic);
-
 * {
   box-sizing: border-box;
   //	transition: all 0.2s ease-in-out;
@@ -74,7 +69,6 @@ $label-color: $grad-color;
 .dashboard {
   display: inline-block;
   padding: 2rem;
-  //	background: #ddd;
   font-family: 'Space Mono', monospace;
 }
 
@@ -85,7 +79,6 @@ $label-color: $grad-color;
   height: 20rem;
   background-color: $meter-bg-color;
   border-radius: 50%;
-  //	border: 4px solid black;
   margin: 0 0.5rem;
   @include shadow(2, true);
 
@@ -385,7 +378,6 @@ body {
 
 h1 {
   margin: 0;
-  //	font-family: 'Roboto Mono', monospace;
   font-weight: normal;
   text-transform: uppercase;
 }

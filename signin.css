@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Space Mono', monospace;
+    font-size: 16px;
+    background-size: cover;
+    background: url("Images/banner.jpg") repeat-y;
+}
+
+.content {
+    width: 100%;
+    max-width: 1000px;
+    min-height: 400px;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header {
+    height: 150px;
+    color: white;
+    text-align: center;
+    margin-top: 20%;
+}
+
+.signin {
+    height: auto;
+    padding: 5px;
+    width: 635px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.signinbuttons {
+    width: 620px;
+    height: 110px;
+    align-items: flex-end;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+}
+
+/*https://github.com/IanLunn/Hover/blob/master/README.md*/
+/* Grow */
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
+}
+
+.form-toggle-button {
+    width: 185px;
+    height: 60px;
+    padding: 12px;
+    margin: 10px;
+    float: right;
+    cursor: pointer;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+.signinbut {
+    background-image: -webkit-linear-gradient(top, #241424, #484848);
+    background-image: -moz-linear-gradient(top, #241424, #484848);
+    background-image: -ms-linear-gradient(top, #241424, #484848);
+    background-image: -o-linear-gradient(top, #241424, #484848);
+    background-image: linear-gradient(to bottom, #241424, #484848);
+    margin-left: 17px;
+    margin-right: 17px;
+}
+.signinbut:hover {
+    background: #484848;
+}
+
+.signinbuttons h1 {
+    text-align: center;
+    color: white;
+}
+
+.signinbuttons p {
+    text-align: right;
+    font-size: 16px;
+    font-weight: bold;
+}
