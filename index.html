@@ -9,20 +9,19 @@
 </head>
 <body>
 <div class="content">
-<div class="form">
-    <form>
-        <fieldset style="border: none">
-            <div class="user"><input type="text" id="username" placeholder="Username/email"></div>
-            <div class="passwd"><input type="text" id="password" placeholder="Password"></div>
-        </fieldset>
-    </form>
-</div>
-<div class="content">
-    <div class="signinbuttons">
-        <div class="signinbut form-toggle-button hvr-grow" id="signin"><h1>Sign In</h1></div>
-        <!--<div class="signupbut form-toggle-button hvr-grow" id="signup"><h1>Historical</h1></div>-->
+
+        <div class="form">
+            <form action="login.php" method="post">
+                <fieldset style="border: none">
+                    <div class="user"><input type="text" id="username" placeholder="Username/email"></div>
+                    <div class="passwd"><input type="text" id="password" placeholder="Password"></div>
+                    <div class="signinbuttons">
+                        <div class="signinbut form-toggle-button hvr-grow" id="signin" ><input type="submit" value="Sign In"></div>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
     </div>
-</div>
-</div>
+
 </body>
 </html>

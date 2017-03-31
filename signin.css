@@ -41,8 +41,9 @@ input{
     width: 350px;
     padding: 5px;
     font-family: 'Space Mono', monospace;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
+    border: none;
 }
 
 .signin {
@@ -108,13 +109,10 @@ input{
     background: #484848;
 }
 
-.signinbuttons h1 {
-    text-align: center;
+.signinbuttons input {
+    height: 55px;
+    width: 220px;
     color: white;
-}
-
-.signinbuttons p {
-    text-align: center;
-    font-size: 16px;
-    font-weight: bold;
+    background-color: transparent;
+    font-size: 30px;
 }
