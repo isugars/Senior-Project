@@ -2,69 +2,50 @@
     margin: 0;
     padding: 0;
 }
-
 html {
-    font-family: 'Space Mono', monospace;
-    font-size: 16px;
     background-size: cover;
     background: url("Images/banner.jpg") repeat-y;
+    margin: auto;
 }
+
 
 .content {
     width: 100%;
-    max-width: 1000px;
-    min-height: 400px;
+    margin: auto;
     height: auto;
-    margin-right: auto;
-    margin-left: auto;
 }
 
 .form {
-    height: 150px;
+    position: relative;
     color: white;
     text-align: center;
-    margin-top: 20%;
+    margin-top: 30%;
+    padding: 5px;
+    align-content: center;
 }
 
-.user{
-    height: auto;
-    border-radius: 5px;
-}
-
-.passwd{
-    height: auto;
-    margin: 5px;
-}
-
-input{
+form input{
     height: 50px;
     width: 350px;
-    padding: 5px;
+    align-items: center;
+    padding: 1.5%;
     font-family: 'Space Mono', monospace;
     font-size: 18px;
     font-weight: bold;
     border: none;
 }
 
-.signin {
-    height: auto;
-    padding: 5px;
-    width: 635px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
 .signinbuttons {
     width: 620px;
     height: 110px;
-    align-items: flex-end;
+    align-items: center;
     margin-left: auto;
     margin-right: auto;
     float: left;
 }
 
 /*https://github.com/IanLunn/Hover/blob/master/README.md*/
-/* Grow */
+
 .hvr-grow {
     display: inline-block;
     vertical-align: middle;
@@ -75,7 +56,7 @@ input{
     transition-duration: 0.3s;
     transition-property: transform;
 }
-
+/* Grow */
 .hvr-grow:hover,
 .hvr-grow:focus,
 .hvr-grow:active {
@@ -105,14 +86,30 @@ input{
     margin-left: 17px;
     margin-right: 17px;
 }
+
 .signinbut:hover {
     background: #484848;
 }
-
 .signinbuttons input {
     height: 55px;
     width: 220px;
     color: white;
     background-color: transparent;
     font-size: 30px;
+}
+
+form .register{
+    font-family: 'Space Mono', monospace;
+    font-size: 15px;
+    margin: auto;
+}
+
+.passwd{
+    height: auto;
+    margin: 5px;
+}
+
+.user{
+    height: auto;
+    border-radius: 5px;
 }
