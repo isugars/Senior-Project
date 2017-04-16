@@ -5,7 +5,7 @@
  * Date: 3/30/2017
  * Time: 4:18 PM
  */
-$db = pg_connect("host=localhost port=5432 dbname=Web_App user=postgres");
+$db = pg_connect("host=localhost port=5432 dbname=Web_App user=postgres password=Andy0986");
 if (!$db) {
     die("Could not connect: " . pg_last_error());
 }
@@ -18,7 +18,7 @@ if((pg_fetch_assoc($result)) == 't') {
     exit();
 }
 else
-    die("Wrong username/password. ".pg_last_error());
+    die("Wrong username/password. ");
 
 pg_free_result($result);
 
