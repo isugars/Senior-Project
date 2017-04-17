@@ -21,18 +21,32 @@
         <!--<h1>Put logo here and change styling</h1>-->
     </div>
     <div class="dashboard">
-        <div class="meter meter--rpm meter--big-label"></div>
-        <div class="meter meter--gear"><div>1</div></div>
         <div class="meter meter--speed"></div>
     </div>
-
-    <!--
-                <div class="help">
-                    Accelerate / brake : up/down arrow<br>
-                    Gears +/- : left/right arrows<br>
-                </div>
-    <!--            <div class="loader active">Loading...</div>-->
     <script src="widget.js"></script>
+    <div class = "battery_meters">
+       <div class="accumulator"><meter low=".15" optimum=".5" high=".75" value=".1"/></div>
+       <div class="glv"><meter low=".15" optimum=".5" high=".75" value=".5"/></div>
+    </div>
+
+    <div class="compound_element">
+        <link rel="stylesheet" href="speed_angle.css">
+        <div class="meter--speed-angle top"/><div class="meter--speed-angle bottom"></div>
+        <div class="meter meter--g-force">
+
+        </div>
+    <div class="aux_meters">
+        <div class="sa_meter">
+            <meter low=".15" optimum=".5" high=".75" value=".5"/>
+        </div>
+        <div class="throttle">
+            <meter low=".15" optimum=".5" high=".75" value=".5"/>
+        </div>
+        <div class="brake">
+            <meter low=".15" optimum=".5" high=".75" value=".5"/>
+        </div>
+    </div>
+    </div>
 
     <div class="footer">
 

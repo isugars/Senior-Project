@@ -230,23 +230,23 @@ $label-color: $grad-color;
   transform: translate3d(-50%, -50%, 0);
   font-weight: bold;
 
-  &.redzone {
-    color: $needle-color;
-  }
+  //&.redzone {
+  //  color: $needle-color;
+  //}
 
   .meter--rpm & {
     font-size: $grad-font-size-big;
   }
 }
 
-.grad-tick,
-.grad-tick--half,
-.grad-tick--quarter {
-
-  &.redzone {
-    background-color: $needle-color;
-  }
-}
+//.grad-tick,
+//.grad-tick--half,
+//.grad-tick--quarter {
+//
+//  &.redzone {
+//    background-color: $needle-color;
+//  }
+//}
 
 
 .grad-tick {
@@ -271,77 +271,77 @@ $label-color: $grad-color;
 
 // Gear-meter
 
-.meter--gear {
-  width: 5rem;
-  height: 5rem;
-  margin: 0;
-  margin-left: -2rem;
-  margin-right: -2rem;
-  @include shadow(2, true);
-
-  &:before {
-    width: 100% + $ring-size * 4 * 2;
-    height: 100% + $ring-size * 4 * 2;
-    left: -$ring-size * 4;
-    top: -$ring-size * 4;
-    bottom: -$ring-size * 4;
-  }
-
-  div {
-    font-size: 2.5rem;
-    text-align: center;
-    line-height: 5rem;
-    font-family: 'Roboto Mono', monospace;
-    font-style: italic;
-    font-weight: bold;
-    color: $grad-color;
-
-    &.redzone {
-      color: $needle-color;
-    }
-  }
-
-}
-
-
-// UI
-
-.loader {
-  display: none;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate3d(-50%, -50%, 0);
-  background: tomato;
-  color: white;
-  padding: 2rem;
-  text-transform: uppercase;
-
-  &.active {
-    display: inline-block;
-  }
-}
-
-.btn-volume {
-  position: fixed;
-  top: 0.5rem;
-  right: 0.5rem;
-
-  width: 2.5rem;
-  height: 2.53rem;
-  line-height: 2rem;
-  border-radius: 50%;
-  background: transparent;
-  color: gray;
-  border: 4px solid;
-  font-size: 1.5rem;
-  font-weight: bold;
-
-  &.active {
-    color: tomato;
-    border-color: tomato;
-  }
-}
+//.meter--gear {
+//  width: 5rem;
+//  height: 5rem;
+//  margin: 0;
+//  margin-left: -2rem;
+//  margin-right: -2rem;
+//  @include shadow(2, true);
+//
+//  &:before {
+//    width: 100% + $ring-size * 4 * 2;
+//    height: 100% + $ring-size * 4 * 2;
+//    left: -$ring-size * 4;
+//    top: -$ring-size * 4;
+//    bottom: -$ring-size * 4;
+//  }
+//
+//  div {
+//    font-size: 2.5rem;
+//    text-align: center;
+//    line-height: 5rem;
+//    font-family: 'Roboto Mono', monospace;
+//    font-style: italic;
+//    font-weight: bold;
+//    color: $grad-color;
+//
+//    &.redzone {
+//      color: $needle-color;
+//    }
+//  }
+//
+//}
+//
+//
+//// UI
+//
+//.loader {
+//  display: none;
+//  position: absolute;
+//  top: 50%;
+//  left: 50%;
+//  transform: translate3d(-50%, -50%, 0);
+//  background: tomato;
+//  color: white;
+//  padding: 2rem;
+//  text-transform: uppercase;
+//
+//  &.active {
+//    display: inline-block;
+//  }
+//}
+//
+//.btn-volume {
+//  position: fixed;
+//  top: 0.5rem;
+//  right: 0.5rem;
+//
+//  width: 2.5rem;
+//  height: 2.53rem;
+//  line-height: 2rem;
+//  border-radius: 50%;
+//  background: transparent;
+//  color: gray;
+//  border: 4px solid;
+//  font-size: 1.5rem;
+//  font-weight: bold;
+//
+//  &.active {
+//    color: tomato;
+//    border-color: tomato;
+//  }
+//}
 
 // DEMO STYLES
 

@@ -1,13 +1,14 @@
-/*$meter-bg-color: rgb(32,32,32);*/
-/*$ring-color: #eee;*/
-/*$grad-color: #9affff;*/
+/**
+ * Created by Ivy on 3/28/2017.
+ * Code adapted from CodePen.io/chmood; "car speedo meters"
+ */
 * {
     box-sizing: border-box;
 }
 
 .dashboard {
     display: inline-block;
-    padding: 2rem;
+    padding: 15% 2rem 2rem;
     font-family: 'Space Mono', monospace;
 }
 
@@ -56,9 +57,6 @@
 .label-unit div {
     font-size: 1rem;
 }
-.meter--big-label .label-unit div {
-    font-size: 0;
-}
 
 .label-value {
     top: 50%;
@@ -67,16 +65,12 @@
 .label-value div, .label-value span {
     font-size: 0;
 }
-.meter--big-label .label-value div, .meter--big-label .label-value span {
-    font-size: 2.5rem;
-}
+
 .label-value div {
     font-family: 'Space Mono', monospace;
     font-style: italic;
 }
-.meter--big-label .label-value span {
-    font-size: 1rem;
-}
+
 .label-value span {
     display: block;
     position: absolute;
@@ -136,10 +130,6 @@
 .needle-axle:hover {
     background-color: black;
 }
-.meter--big-label .needle-axle {
-    width: 37.5%;
-    height: 37.5%;
-}
 
 .grad {
     position: absolute;
@@ -151,17 +141,9 @@
     transform: translate3d(-50%, -50%, 0);
     font-weight: bold;
 }
-.grad.redzone {
-    color: #e30;
-}
-.meter--rpm .grad {
-    font-size: 2rem;
-}
 
-.grad-tick.redzone,
-.grad-tick--half.redzone,
-.grad-tick--quarter.redzone {
-    background-color: #e30;
+.meter--speed .grad {
+    font-size: 1.15rem;
 }
 
 .grad-tick {
@@ -184,100 +166,6 @@
     height: 0.25em;
 }
 
-.meter--gear {
-    width: 5rem;
-    height: 5rem;
-    margin: 0;
-    margin-left: -2rem;
-    margin-right: -2rem;
-    box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.16), inset 0 3px 6px rgba(0, 0, 0, 0.23);
-}
-.meter--gear:before {
-    width: 128%;
-    height: 128%;
-    left: -14%;
-    top: -14%;
-    bottom: -14%;
-}
-.meter--gear div {
-    font-size: 2.5rem;
-    text-align: center;
-    line-height: 5rem;
-    font-family: 'Space Mono', monospace;
-    font-style: italic;
-    font-weight: bold;
-    color: #555;
-}
-.meter--gear div.redzone {
-    color: #e30;
-}
-
-.loader {
-    display: none;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate3d(-50%, -50%, 0);
-    transform: translate3d(-50%, -50%, 0);
-    background: tomato;
-    color: white;
-    padding: 2rem;
-    text-transform: uppercase;
-}
-.loader.active {
-    display: inline-block;
-}
-
-.btn-volume {
-    position: fixed;
-    top: 0.5rem;
-    right: 0.5rem;
-    width: 2.5rem;
-    height: 2.53rem;
-    line-height: 2rem;
-    border-radius: 50%;
-    background: transparent;
-    color: gray;
-    border: 4px solid;
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-
 body {
     text-align: center;
-    /*
-          background:
-              linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
-              linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
-              linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
-              linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
-              linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
-              linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
-              background-color: #131313;
-              background-size: 20px 20px;
-
-    */
-}
-
-.head,
-.help {
-    padding: 1rem;
-    color: white;
-    text-align: center;
-    font-style: italic;
-}
-
-.help {
-    border-top: 1px solid;
-}
-
-.head {
-    border-bottom: 1px solid;
-}
-
-h1 {
-    margin: 0;
-    font-weight: normal;
-    text-transform: uppercase;
-    color: white
 }
