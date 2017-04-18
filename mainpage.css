@@ -17,9 +17,18 @@ html {
     margin-right: auto;
     margin-left: auto;
 }
+.wrapper {
+    width: 100%;
+    overflow: hidden;
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
 
 .header {
     height: 120px;
+    width: 100%;
 }
 
 .live, .historical {
@@ -144,7 +153,7 @@ p {
 .compound_element{
     display: inline-block;
     margin-left: 10%;
-    padding-top:5px;
+    padding-top:45px;
     float: left;
     width: 25%;
 }
@@ -169,7 +178,9 @@ meter{
 }
 
 .aux_meters {
-    padding-top: 105%;
+    padding-top: 20%;
+    margin-top: 85%;
+    margin-left: 10%;
 }
 
 .aux_meters meter{
@@ -178,14 +189,14 @@ meter{
 }
 
 .sa_meter{
-    padding:2px;
+    padding:3px;
 }
 
 .throttle{
-    padding:2px;
+    padding:3px;
 }
 
 .brake{
-    padding:2px;
+    padding:3px;
 }
 
