@@ -1,15 +1,15 @@
 <!--<?php include('session.php');?>-->
 <!doctype html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <title>UNCA Motorsports Telemetry</title>
     <link rel="stylesheet" type="text/css" href="mainpage.css">
     <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
     <script src="widget.js"></script>
-
 </head>
 <body>
+
 <div class="header">
     <div class="wrapper">
         <div class="container">
@@ -17,6 +17,7 @@
         </div>
     </div>
 </div>
+
 <div class="content">
     <div class="topBoxes">
         <div class="livebox form-toggle-button hvr-grow" id="live"><h1>Live</h1></div>
@@ -42,22 +43,23 @@
         <!--</div>-->
         <!--<div class="meter&#45;&#45;g-force"></div>-->
         <div class="meter meter--speed-angle">
-    <div class="aux_meters">
-        <div class="sa_meter">
-            <meter low=".15" optimum=".5" high=".75" value=".5"/>
+        <div class="aux_meters">
+            <div class="sa_meter">
+                <meter low=".15" optimum=".5" high=".75" value=".5"/>
+            </div>
+            <div class="throttle">
+                <meter low=".15" optimum=".5" high=".75" value=".5"/>
+            </div>
+            <div class="brake">
+                <meter low=".15" optimum=".5" high=".75" value=".5"/>
+            </div>
         </div>
-        <div class="throttle">
-            <meter low=".15" optimum=".5" high=".75" value=".5"/>
-        </div>
-        <div class="brake">
-            <meter low=".15" optimum=".5" high=".75" value=".5"/>
         </div>
     </div>
+        <div class="footer">
+            Meters designed by Chmood
+            Banner image by Abstract HD Wallpapers
+        </div>
     </div>
-
-    <div class="footer">
-
-    </div>
-</div>
 </body>
 </html>
