@@ -7,8 +7,8 @@ get username/password elements
 query against db
  */
 function login() {
-    let username = document.getElementsByClassName("username").valueOf();
-    let password = document.getElementsByClassName("password").valueOf();
+    let username = document.getElementsByClassName("username").toString();
+    let password = document.getElementsByClassName("password").toString();
     if(username == "uncaMotorsports" && password == "blob"){
         alert("you're logged in");
         window.location = "mainpage.html";
