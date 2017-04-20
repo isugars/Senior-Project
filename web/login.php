@@ -6,7 +6,7 @@
  * Time: 4:18 PM
  */
 include("db_config.php");
-require 'C:\Bitnami\wappstack-7.1.2-0\apache2\htdocs\Senior-Project\vendor\autoload.php';
+require 'vendor/autoload.php';
 
 //create client object
 $client = new Google_Client();

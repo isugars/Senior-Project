@@ -5,6 +5,7 @@
  * Date: 4/16/2017
  * Time: 2:20 PM
  */
+require 'vendor/autoload.php';
 include("db_config.php");
 
 $username = pg_escape_string($_POST['username']);
