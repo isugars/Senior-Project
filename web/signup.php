@@ -5,7 +5,7 @@
  * Date: 4/16/2017
  * Time: 2:20 PM
  */
-include ("db_config.php");
+include("db_config.php");
 
 $username = pg_escape_string($_POST['username']);
 $email = pg_escape_string($_POST['email']);

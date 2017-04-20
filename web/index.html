@@ -1,26 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
-    <title>Register</title>
+    <title>Sign In</title>
     <link rel="stylesheet" type="text/css" href="login.css">
     <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet" type="text/css">
     <link rel=icon href=Images/favicon.ico>
+    <!--<link rel=icon href=Images/menu.ico>-->
 </head>
 <body>
-    <div class="content">
+<div class="content">
         <div class="form">
-            <form action="signup.php" method="post">
+            <form action="login.php" method="get">
                 <fieldset style="border: none">
-                    <div class="user"><input type="text" id="username" placeholder="Username"></div>
-                    <div class="user"><input type="text" id="email" placeholder="email"></div>
+                    <div class="user"><input type="text" id="username" placeholder="Username/email"></div>
                     <div class="passwd"><input type="password" id="password" placeholder="Password"></div>
                     <div class="signinbuttons">
-                        <div class="signinbut form-toggle-button hvr-grow" id="signin" ><input type="submit" value="Submit"></div>
+                        <div class="signinbut form-toggle-button hvr-grow" id="signin" ><input type="submit" value="Sign In"></div>
                     </div>
                 </fieldset>
+                <p class="register">New User? <a href="signup.html">Register</a> </p>
             </form>
         </div>
     </div>
+
 </body>
 </html>
