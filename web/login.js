@@ -12,8 +12,8 @@ function login() {
     var password = document.forms["login_form"]["password"].value;
 
     if(user == "uncaMotorsports" && password == "blob"){
-        alert("you're logged in");
-        window.location = "mainpage.html";
+        location.anchor("mainpage.html");
+        location.replace("mainpage.html");
     }else {
         alert("Wrong username/password");
     }
