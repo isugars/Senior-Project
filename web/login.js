@@ -9,10 +9,10 @@ query against db
 function login() {
     let user = document.forms["login_form"]["username"].value;
     console.log(user);
-    var password = document.forms["login_form"]["password"].value;
+    let password = document.forms["login_form"]["password"].value;
 
     if(user == "uncaMotorsports" && password == "blob"){
-        location.anchor("mainpage.html");
+        location.anchor("https://bitnami-6jqo6cybkw.appspot.com/mainpage.html");
         location.replace("mainpage.html");
     }else {
         alert("Wrong username/password");

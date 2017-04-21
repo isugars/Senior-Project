@@ -6,17 +6,18 @@
     <link rel="stylesheet" type="text/css" href="login.css">
     <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet" type="text/css">
     <link rel=icon href=Images/favicon.ico>
+    <script src="signup.js" language="JavaScript"></script>
 </head>
 <body>
     <div class="content">
         <div class="form">
-            <form action="signup.php" method="post" content="enctype">
+            <form name="signup_form" method="post">
                 <fieldset style="border: none">
                     <div class="user"><input type="text" id="username" placeholder="Username"></div>
                     <div class="user"><input type="text" id="email" placeholder="email"></div>
                     <div class="passwd"><input type="password" id="password" placeholder="Password"></div>
                     <div class="signinbuttons">
-                        <div class="signinbut form-toggle-button hvr-grow" id="signin" ><input type="submit" value="Submit"></div>
+                        <div class="signinbut form-toggle-button hvr-grow" id="signin" ><input type="submit" value="Submit" onclick="signup()"></div>
                     </div>
                 </fieldset>
             </form>
