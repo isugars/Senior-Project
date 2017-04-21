@@ -7,9 +7,11 @@ get username/password elements
 query against db
  */
 function login() {
-    let username = document.getElementsByClassName("username").toString();
-    let password = document.getElementsByClassName("password").toString();
-    if(username == "uncaMotorsports" && password == "blob"){
+    let user = document.forms["login_form"]["username"].value;
+    console.log(user);
+    var password = document.forms["login_form"]["password"].value;
+
+    if(user == "uncaMotorsports" && password == "blob"){
         alert("you're logged in");
         window.location = "mainpage.html";
     }else {
