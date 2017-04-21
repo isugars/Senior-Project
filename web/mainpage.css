@@ -13,6 +13,7 @@ html {
     position: relative;
     width: 100%;
     max-width: 95%;
+
     height: 100%;
     margin-right: auto;
     margin-left: auto;
@@ -145,15 +146,23 @@ p {
     width: 150px;
     height: auto;
     display: inline-block;
-    margin: auto;
-    padding: 15%;
+    -webkit-transform: rotate(-90deg);
+    margin: 10% 5px 5px;
+    padding: 5%;
     float: left;
-    width: 25%;
+    width: 30%;
+}
+
+label{
+    padding: 5px;
+    font-family: 'Space Mono', monospace;
+    font-size: 15px;
+    color: #676767;
 }
 
 .compound_element{
     display: inline-block;
-    margin-left: 10%;
+    margin: auto;
     padding-top:45px;
     float: left;
     width: 25%;
