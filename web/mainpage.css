@@ -9,6 +9,10 @@ html {
     background: rgba(36, 80, 84, .5);
 }
 
+header{
+    max-width: 1500px;
+}
+
 .content {
     position: relative;
     width: 100%;
@@ -25,7 +29,6 @@ html {
 }
 .container {
     width: 100%;
-    max-width: 15000%;
     margin: 0 auto;
 }
 
