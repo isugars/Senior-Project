@@ -138,10 +138,10 @@ document.addEventListener("DOMContentLoaded",	function() {
     });
 
     let speedAngleMeter = new Meter(document.querySelector(".meter--speed-angle"), {
-        value: 40,
-        valueMin: -40,
-        valueMax: 40,
-        valueStep: 10,
+        value: 180,
+        valueMin: -180,
+        valueMax: 180,
+        valueStep: 20,
         valueUnit: "<div>Degrees</div>",
         angleMin: 30,
         angleMax: 330,

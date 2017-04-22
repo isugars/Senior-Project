@@ -31,7 +31,6 @@ html {
 .header {
     height: 120px;
     width: 100%;
-    background-size: contain;
 }
 
 .live, .historical {
