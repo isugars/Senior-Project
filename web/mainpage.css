@@ -9,10 +9,6 @@ html {
     background: rgba(36, 80, 84, .5);
 }
 
-header{
-    max-width: 1500px;
-}
-
 .content {
     position: relative;
     width: 100%;
