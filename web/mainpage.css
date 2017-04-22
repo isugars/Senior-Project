@@ -25,6 +25,7 @@ html {
 }
 .container {
     width: 100%;
+    max-width: 15000%;
     margin: 0 auto;
 }
 
