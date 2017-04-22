@@ -112,10 +112,6 @@ let Meter = function Meter($elm, config) {
         transform: "translate3d(-50%, 0, 0) rotate(" + angle + "deg)"
     });
 
-    let $smallNeedle = makeElement($elm, "smallNeedle", "", {
-        transform: "translate3d(-50%, 0, 0) rotate(" + angle + "deg)"
-    });
-
     let $axle = makeElement($elm, "needle-axle");
     makeElement($elm, "label label-value", "<div>" + config.labelFormat(config.value) + "</div>" + "<span>" + config.labelUnit + "</span>");
 
@@ -129,10 +125,10 @@ let Meter = function Meter($elm, config) {
 document.addEventListener("DOMContentLoaded",	function() {
 
     let speedMeter = new Meter(document.querySelector(".meter--speed"), {
-        value: 203,
+        value: 0,
         valueMin: 0,
-        valueMax: 220,
-        valueStep: 20,
+        valueMax: 80,
+        valueStep: 10,
         valueUnit: "<div>Speed</div><span>Km/h</span>",
         angleMin: 30,
         angleMax: 330,
@@ -142,9 +138,9 @@ document.addEventListener("DOMContentLoaded",	function() {
     });
 
     let speedAngleMeter = new Meter(document.querySelector(".meter--speed-angle"), {
-        value: 80,
-        valueMin: 0,
-        valueMax: 80,
+        value: 40,
+        valueMin: -40,
+        valueMax: 40,
         valueStep: 10,
         valueUnit: "<div>Degrees</div>",
         angleMin: 30,
