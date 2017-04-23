@@ -15,18 +15,8 @@
         </dependency>
         <dependency>
             <groupId>org.apache.beam</groupId>
-            <artifactId>beam-sdks-java-maven-archetypes-parent</artifactId>
-            <version>0.3.0-incubating</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.beam</groupId>
             <artifactId>beam-sdks-java-java8tests</artifactId>
             <version>0.3.0-incubating</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.beam</groupId>
-            <artifactId>beam-sdks-parent</artifactId>
-            <version>0.2.0-incubating</version>
         </dependency>
         <dependency>
             <groupId>org.apache.beam</groupId>
@@ -35,27 +25,7 @@
         </dependency>
         <dependency>
             <groupId>org.apache.beam</groupId>
-            <artifactId>beam-parent</artifactId>
-            <version>0.3.0-incubating</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.beam</groupId>
-            <artifactId>beam-sdks-python</artifactId>
-            <version>0.6.0</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.beam</groupId>
-            <artifactId>beam-runners-flink-parent</artifactId>
-            <version>0.2.0-incubating</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.beam</groupId>
             <artifactId>beam-sdks-java-io-google-cloud-platform</artifactId>
-            <version>0.3.0-incubating</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.beam</groupId>
-            <artifactId>beam-sdks-java-extensions-parent</artifactId>
             <version>0.3.0-incubating</version>
         </dependency>
         <dependency>
@@ -67,16 +37,6 @@
             <groupId>org.apache.beam</groupId>
             <artifactId>beam-runners-spark</artifactId>
             <version>0.6.0</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.beam</groupId>
-            <artifactId>beam-sdks-java-parent</artifactId>
-            <version>0.2.0-incubating</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.beam</groupId>
-            <artifactId>beam-runners-parent</artifactId>
-            <version>0.3.0-incubating</version>
         </dependency>
         <dependency>
             <groupId>org.apache.beam</groupId>
@@ -122,11 +82,6 @@
             <groupId>org.apache.beam</groupId>
             <artifactId>beam-sdks-java-io-hbase</artifactId>
             <version>0.6.0</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.beam</groupId>
-            <artifactId>beam-examples-parent</artifactId>
-            <version>0.3.0-incubating</version>
         </dependency>
         <dependency>
             <groupId>org.apache.beam</groupId>
@@ -190,16 +145,6 @@
         </dependency>
         <dependency>
             <groupId>org.apache.beam</groupId>
-            <artifactId>beam-sdks-java-core</artifactId>
-            <version>0.2.0-incubating</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.beam</groupId>
-            <artifactId>beam-sdks-common-parent</artifactId>
-            <version>0.6.0</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.beam</groupId>
             <artifactId>beam-sdks-java-io-elasticsearch</artifactId>
             <version>0.6.0</version>
         </dependency>
@@ -232,11 +177,6 @@
             <groupId>org.apache.beam</groupId>
             <artifactId>beam-sdks-java-io-mongodb</artifactId>
             <version>0.6.0</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.beam</groupId>
-            <artifactId>beam-sdks-java-io-parent</artifactId>
-            <version>0.2.0-incubating</version>
         </dependency>
         <dependency>
             <groupId>com.google.cloud.dataflow</groupId>
