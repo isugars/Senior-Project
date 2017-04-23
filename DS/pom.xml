@@ -8,6 +8,11 @@
     <artifactId>DS</artifactId>
     <version>1.0-SNAPSHOT</version>
     <dependencies>
+        <dependency>
+            <groupId>com.google.cloud.dataflow</groupId>
+            <artifactId>google-cloud-dataflow-java-sdk-all</artifactId>
+            <version>version_number</version>
+        </dependency>
     <dependency>
         <groupId>org.apache.beam</groupId>
         <artifactId>beam-runners-flink_2.10</artifactId>

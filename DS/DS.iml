@@ -11,6 +11,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: com.google.cloud.dataflow:google-cloud-dataflow-java-sdk-all:version_number" level="project" />
     <orderEntry type="library" name="Maven: org.apache.beam:beam-runners-flink_2.10:0.3.0-incubating" level="project" />
     <orderEntry type="library" name="Maven: org.apache.flink:flink-java:1.1.2" level="project" />
     <orderEntry type="library" name="Maven: org.apache.flink:flink-clients_2.10:1.1.2" level="project" />

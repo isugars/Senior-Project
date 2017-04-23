@@ -43,7 +43,7 @@ public class KafkaMessages{
     private static Pipeline initializePipeline(String[] args) {
         KafkaIOExamples.KafkaOptions options = PipelineOptionsFactory.fromArgs(args).as(KafkaIOExamples.KafkaOptions.class);
         options.setStreaming(true);
-        options.setRunner(FlinkRunner.class);
+//        options.setRunner(FlinkPipelineRunner.class);
         return Pipeline.create(options);
     }
 

@@ -8,12 +8,13 @@ html {
     font-size: 14px;
     background: rgba(36, 80, 84, .5);
 }
+header{
+    background-image: url("Images/banner.jpg");
+}
 
 .content {
     position: relative;
     width: 100%;
-    max-width: 95%;
-
     height: 100%;
     margin-right: auto;
     margin-left: auto;
