@@ -3,17 +3,20 @@ runtime: php55
 api_version: 1
 
 handlers:
-- url: /index\.html
+#- url: /index\.html
+#  script: login.php
+#  login: required
+#
+#- url: /signup\.html
+#  script: signup.php
+#  login: required
+#
+#- url: /admin/.*
+#  script: admin.php
+#  login: admin
+#
+#- url: /.*
+#  script: not_found.php
+
+- url: /(.+\.php)$
   script: login.php
-  login: required
-
-- url: /signup\.html
-  script: signup.php
-  login: required
-
-- url: /admin/.*
-  script: admin.php
-  login: admin
-
-- url: /.*
-  script: not_found.php
