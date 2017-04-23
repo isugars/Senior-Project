@@ -6,7 +6,7 @@
  * Time: 4:18 PM
  */
 include("db_config.php");
-require 'C:\Bitnami\wappstack-7.1.2-0\apache2\htdocs\Senior-Project\vendor\autoload.php';
+require_once 'C:\Bitnami\wappstack-7.1.2-0\apache2\htdocs\Senior-Project\vendor\autoload.php';
 
 //create client object
 //$client = new Google_Client();
@@ -49,7 +49,7 @@ require 'C:\Bitnami\wappstack-7.1.2-0\apache2\htdocs\Senior-Project\vendor\autol
 //}
 
 
-    $sql = "SELECT * FROM User_Account WHERE login = '$_POST[username]' AND md5_password = '$_POST[password]'";
+    $sql = "SELECT * FROM UserAccount WHERE username = '$_POST[username]' AND password = '$_POST[password]'";
     $result = pg_query($db, $sql);
 
     if ((pg_fetch_assoc($result)) == 't') {
