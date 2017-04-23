@@ -1,5 +1,5 @@
 runtime: php55
-api_version: 
+api_version:
 
 handlers:
 #- url: /index\.html
