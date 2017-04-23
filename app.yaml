@@ -1,6 +1,5 @@
-application: UNCA Motorsports Telemetry
 runtime: php55
-api_version: 1
+api_version: 
 
 handlers:
 #- url: /index\.html
