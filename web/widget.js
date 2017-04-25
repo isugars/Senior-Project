@@ -24,6 +24,11 @@ let Meter = function Meter($elm, config) {
         return angle;
     };
 
+    this.setValue = function(value) {
+        $needle.style.transform = "translate3d(-50%, 0, 0) rotate(" + Math.round(value2angle(value)) + "deg)";
+        $value.innerHTML = config.needleFormat(value);
+    };
+
     let makeElement = function(parent, className, innerHtml, style) {
 
         let	e = document.createElement('div');
@@ -53,19 +58,13 @@ let Meter = function Meter($elm, config) {
 
         // Graduation numbers
 
-        // Red zone
-        let redzoneClass = "";
-        if (value > config.valueRed) {
-            redzoneClass = " redzone";
-        }
-
-        makeElement($elm, "grad grad--" + n + redzoneClass, config.labelFormat(value), {
+        makeElement($elm, "grad grad--" + n, config.labelFormat(value), {
             left: (50 - (50 - margin) * Math.sin(angle * (Math.PI / 180))) + "%",
             top: (50 + (50 - margin) * Math.cos(angle * (Math.PI / 180))) + "%"
         });
 
         // Tick
-        makeElement($elm, "grad-tick grad-tick--" + n + redzoneClass, "", {
+        makeElement($elm, "grad-tick grad-tick--" + n, "", {
             left: (50 - 50 * Math.sin(angle * (Math.PI / 180))) + "%",
             top: (50 + 50 * Math.cos(angle * (Math.PI / 180))) + "%",
             transform: "translate3d(-50%, 0, 0) rotate(" + (angle + 180) + "deg)"
@@ -75,7 +74,7 @@ let Meter = function Meter($elm, config) {
         angle += angleStep / 2;
 
         if (angle < config.angleMax) {
-            makeElement($elm, "grad-tick grad-tick--half grad-tick--" + n + redzoneClass, "", {
+            makeElement($elm, "grad-tick grad-tick--half grad-tick--" + n, "", {
                 left: (50 - 50 * Math.sin(angle * (Math.PI / 180))) + "%",
                 top: (50 + 50 * Math.cos(angle * (Math.PI / 180))) + "%",
                 transform: "translate3d(-50%, 0, 0) rotate(" + (angle + 180) + "deg)"
@@ -86,7 +85,7 @@ let Meter = function Meter($elm, config) {
         angle += angleStep / 4;
 
         if (angle < config.angleMax) {
-            makeElement($elm, "grad-tick grad-tick--quarter grad-tick--" + n + redzoneClass, "", {
+            makeElement($elm, "grad-tick grad-tick--quarter grad-tick--" + n, "", {
                 left: (50 - 50 * Math.sin(angle * (Math.PI / 180))) + "%",
                 top: (50 + 50 * Math.cos(angle * (Math.PI / 180))) + "%",
                 transform: "translate3d(-50%, 0, 0) rotate(" + (angle + 180) + "deg)"
@@ -96,7 +95,7 @@ let Meter = function Meter($elm, config) {
         angle -= angleStep / 2;
 
         if (angle < config.angleMax) {
-            makeElement($elm, "grad-tick grad-tick--quarter grad-tick--" + n + redzoneClass, "", {
+            makeElement($elm, "grad-tick grad-tick--quarter grad-tick--" + n, "", {
                 left: (50 - 50 * Math.sin(angle * (Math.PI / 180))) + "%",
                 top: (50 + 50 * Math.cos(angle * (Math.PI / 180))) + "%",
                 transform: "translate3d(-50%, 0, 0) rotate(" + (angle + 180) + "deg)"
@@ -137,7 +136,7 @@ document.addEventListener("DOMContentLoaded",	function() {
         needleFormat: function(v) { return Math.round(v); }
     });
 
-    let speedAngleMeter = new Meter(document.querySelector(".meter--speed-angle"), {
+    let steeringAngleMeter = new Meter(document.querySelector(".meter--steering-angle"), {
         value: 180,
         valueMin: -180,
         valueMax: 180,
@@ -153,5 +152,34 @@ document.addEventListener("DOMContentLoaded",	function() {
             Math.round(v);
         }
     });
+
+    //set init speed and steering angle to zero
+    let speed = 0,
+        steeringAngle=steeringAngleMeter.value,
+        accumulator,
+        glv,
+        throttle,
+        brake;
+
+    //parse txt file to value
+    // this.readSimulationData = function(input){
+    //
+    // }
+
+    //main loop update values
+
+    (function loop(){
+        window.requestAnimationFrame(loop);
+        if(speed<80) {
+            speed += .5;
+            speedMeter.setValue(speed);
+        }
+        if (steeringAngle > 0 || steeringAngle < steeringAngle.valueMax){
+            steeringAngle.value += 1;
+            steeringAngleMeter.setValue(steeringAngle);
+        }
+
+        //update & animate battery, torque, and throttle meters
+    })();
 
 });

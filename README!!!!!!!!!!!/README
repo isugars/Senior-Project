@@ -1,0 +1,9 @@
+Since this project interfaces with hardware, I have included the files necessary to test the Apache Kafka message
+transport layer for both the Raspberry Pi and the Kafka VM instance on my Google Cloud Platform.
+
+Also included in this directory is a ERD for my PostgreSQL database so far.
+
+The message transport layer has not been integrated with the UI at this time, so the app uses a test log to demonstrate
+functionality of the widget.
+
+Note that this project is still under development and files are subject to change.

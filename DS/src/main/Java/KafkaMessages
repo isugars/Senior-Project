@@ -1,3 +1,4 @@
+import com.google.apphosting.api.AppEngineInternal;
 import org.apache.beam.runners.flink.examples.streaming.KafkaIOExamples;
 import org.apache.beam.runners.flink.translation.wrappers.streaming.io.UnboundedFlinkSource;
 import org.apache.beam.sdk.Pipeline;
@@ -8,6 +9,7 @@ import org.apache.flink.streaming.util.serialization.SimpleStringSchema;
 
 import java.util.Properties;
 
+@AppEngineInternal
 public class KafkaMessages{
     //establish topic, broker
     private static final String KAFKA_BROKER = "130.211.176.199:9092";
