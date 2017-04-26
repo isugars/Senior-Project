@@ -1,0 +1,30 @@
+<component name="libraryTable">
+  <library name="JBoss Weld-1.1.8" type="CDI">
+    <properties version="1.1.8" />
+    <CLASSES>
+      <root url="jar://C:/Program Files/Java/appengine-java-sdk-1.9.51/lib/user/cdi-api.jar!/" />
+      <root url="jar://C:/Program Files/Java/appengine-java-sdk-1.9.51/lib/user/weld-api.jar!/" />
+      <root url="jar://C:/Program Files/Java/appengine-java-sdk-1.9.51/lib/user/weld-se-core.jar!/" />
+      <root url="jar://C:/Program Files/Java/appengine-java-sdk-1.9.51/lib/user/weld-servlet-core.jar!/" />
+      <root url="jar://C:/Program Files/Java/appengine-java-sdk-1.9.51/lib/user/weld-core.jar!/" />
+      <root url="jar://C:/Program Files/Java/appengine-java-sdk-1.9.51/lib/user/weld-spi.jar!/" />
+      <root url="jar://C:/Program Files/Java/appengine-java-sdk-1.9.51/lib/user/weld-se.jar!/" />
+      <root url="jar://C:/Program Files/Java/appengine-java-sdk-1.9.51/lib/user/weld-servlet.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://C:/Program Files/Java/appengine-java-sdk-1.9.51/lib/user/cdi-api-javadoc.jar!/" />
+      <root url="jar://C:/Program Files/Java/appengine-java-sdk-1.9.51/lib/user/weld-api-javadoc.jar!/" />
+      <root url="jar://C:/Program Files/Java/appengine-java-sdk-1.9.51/lib/user/weld-spi-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://C:/Program Files/Java/appengine-java-sdk-1.9.51/lib/user/cdi-api-sources.jar!/" />
+      <root url="jar://C:/Program Files/Java/appengine-java-sdk-1.9.51/lib/user/weld-api-sources.jar!/" />
+      <root url="jar://C:/Program Files/Java/appengine-java-sdk-1.9.51/lib/user/weld-core-sources.jar!/" />
+      <root url="jar://C:/Program Files/Java/appengine-java-sdk-1.9.51/lib/user/weld-se-core-sources.jar!/" />
+      <root url="jar://C:/Program Files/Java/appengine-java-sdk-1.9.51/lib/user/weld-servlet-core-sources.jar!/" />
+      <root url="jar://C:/Program Files/Java/appengine-java-sdk-1.9.51/lib/user/weld-se-sources.jar!/" />
+      <root url="jar://C:/Program Files/Java/appengine-java-sdk-1.9.51/lib/user/weld-spi-sources.jar!/" />
+      <root url="jar://C:/Program Files/Java/appengine-java-sdk-1.9.51/lib/user/weld-servlet-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
