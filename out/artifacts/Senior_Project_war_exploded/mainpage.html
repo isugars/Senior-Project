@@ -1,0 +1,67 @@
+<!--<?php include('session.php');?>-->
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNCA Motorsports Telemetry</title>
+    <link rel="stylesheet" type="text/css" href="mainpage.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <script src="widget.js"></script>
+</head>
+<body>
+
+<header style="max-width: 15000px">
+    <img src="Images/banner.jpg" >
+    <div class="topBoxes">
+        <div class="livebox form-toggle-button hvr-grow" id="live"><h1>Live</h1></div>
+        <div class="histbox form-toggle-button hvr-grow" id="historical"><h1>Historical</h1></div>
+    </div>
+</header>
+<div class="content">
+    <!--<div class="head">-->
+        <!--<h1>Put logo here and change styling</h1>-->
+    <!--</div>-->
+    <div class="dashboard">
+        <div class="meter meter--speed"></div>
+    </div>
+    <form>
+    <div class = "battery_meters">
+       <div class="accumulator"><meter low=".15" optimum=".5" high=".75" value=".1">Accumulator</meter></div>
+        <label>Accumulator</label>
+       <div class="glv"><meter low=".15" optimum=".5" high=".75" value=".5">GLV</meter></div>
+        <label>GLV</label>
+    </div>
+    </form>
+    <div class="compound_element">
+        <link rel="stylesheet" href="speed_angle.css">
+        <!--<div class="bottom">-->
+            <!--<div class="meter&#45;&#45;speed-angle"></div>-->
+        <!--</div>-->
+        <!--<div class="meter&#45;&#45;g-force"></div>-->
+        <div class="meter meter--speed-angle">
+            <form>
+        <div class="aux_meters">
+            <!--<div class="sa_meter">-->
+                <!--<meter low=".15" optimum=".5" high=".75" value=".5"/>-->
+            <!--</div>-->
+            <div class="throttle">
+                <meter low=".15" optimum=".5" high=".75" value=".5">Throttle</meter>
+                <label>Throttle</label>
+            </div>
+            <div class="brake">
+                <meter low=".15" optimum=".5" high=".75" value=".5">Brake</meter>
+                <label>Brake</label>
+            </div>
+        </div>
+            </form>
+        </div>
+    </div>
+        <div class="footer">
+            Meters designed by Chmood
+            Banner image by Abstract HD Wallpapers
+        </div>
+    </div>
+</body>
+</html>

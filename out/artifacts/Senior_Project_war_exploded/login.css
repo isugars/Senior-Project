@@ -1,0 +1,131 @@
+* {
+    /*margi!*n: 0;*/
+    /*paddi*!ng: 0;*/
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    background-size: 100%, 100%;
+    background: url("Images/banner.jpg") repeat;
+    margin: auto;
+}
+
+
+.content {
+    width: 100%;
+    min-height: 300px;
+}
+
+.form {
+    color: white;
+    text-align: center;
+    padding-top: 15%;
+    align-content: center;
+}
+
+form input{
+    align-items: center;
+    padding: 1.5%;
+    font-family: 'Space Mono', monospace;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+}
+
+.signinbuttons {
+    width: 285px;
+    height: 110px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*https://github.com/IanLunn/Hover/blob/master/README.md*/
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+/* Grow */
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
+}
+
+.form-toggle-button {
+    width: 220px;
+    height: 50px;
+    padding: 12px;
+    margin: 10px;
+    float: right;
+    cursor: pointer;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.signinbut {
+    border: solid black;
+    background-color: black;
+    margin-left: 17px;
+    margin-right: 17px;
+}
+
+.signinbut:hover {
+    background: #484848;
+}
+.signinbuttons input {
+    position: inherit;
+    height: 55px;
+    width: 220px;
+    color: white;
+    background-color: transparent;
+    font-size: 30px;
+}
+
+input[type=text],
+input[type=password] {
+    padding-left: 10px;
+    margin: 5px 10px 5px 18px;
+    width: 295px;
+    height: 45px;
+    border-radius: 10px;
+}
+
+form .register{
+    font-family: 'Space Mono', monospace;
+    font-size: 15px;
+}
+
+.register a{
+    color: #02cc17;
+}
+
+.passwd{
+    height: auto;
+    margin: 5px;
+}
+
+.user{
+    height: auto;
+    border-radius: 5px;
+}
+
+.footer{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left:0;
+    width: 100%;
+    height: 15px;
+    font-family: 'Space Mono', monospace;
+    font-size: 9px;
+    color: #676767;
+}
