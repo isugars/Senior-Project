@@ -170,14 +170,11 @@ document.addEventListener("DOMContentLoaded",	function() {
 
     (function loop(){
         window.requestAnimationFrame(loop);
-        if(speed<80) {
-            speed += .5;
-            speedMeter.setValue(speed);
-        }
-        if (steeringAngle > 0 || steeringAngle < steeringAngle.valueMax){
-            steeringAngle.value += 1;
-            steeringAngleMeter.setValue(steeringAngle);
-        }
+
+        speedMeter.setValue(speed);
+
+        steeringAngleMeter.setValue(steeringAngle);
+
 
         //update & animate battery, torque, and throttle meters
     })();
