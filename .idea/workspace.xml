@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d26db541-5012-4fff-a4e6-1ce37916a3c7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README!!!!!!!!!!!/Kafka_config_VM/kafka_consumer" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README!!!!!!!!!!!/Kafka_config_VM/producer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README!!!!!!!!!!!/Kafka_config_VM/server.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README!!!!!!!!!!!/Kafka_config_VM/zookeeper.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README!!!!!!!!!!!/Kafka_scripts/kafka_topic" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README!!!!!!!!!!!/Kafka_scripts/producer.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README!!!!!!!!!!!/Kafka_scripts/server.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README!!!!!!!!!!!/Kafka_scripts/zookeeper.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README!!!!!!!!!!!/PostrgeSQL/Relational_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README!!!!!!!!!!!/PostrgeSQL/Db_DDL.ddl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/DS/target/" />
@@ -47,28 +41,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="appengine-web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/appengine-web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="appengine-web.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/out/artifacts/Senior_Project_war_exploded/WEB-INF/appengine-web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -285,6 +258,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Senior-Project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Senior-Project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="README!!!!!!!!!!!" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -313,11 +300,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Bitnami\wappstack-7.1.2-0\apache2\htdocs\Senior-Project\README!!!!!!!!!!!\PostrgeSQL" />
       <recent name="C:\Bitnami\wappstack-7.1.2-0\apache2\htdocs\Senior-Project\README!!!!!!!!!!!\Kafka_scripts" />
       <recent name="C:\Bitnami\wappstack-7.1.2-0\apache2\htdocs\Senior-Project\python" />
       <recent name="C:\Bitnami\wappstack-7.1.2-0\apache2\htdocs\Senior-Project\web" />
       <recent name="C:\Bitnami\wappstack-7.1.2-0\apache2\htdocs\Senior-Project" />
-      <recent name="C:\Bitnami\wappstack-7.1.2-0\apache2\htdocs\Senior-Project\DS\src\main\java" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Bitnami\wappstack-7.1.2-0\apache2\htdocs\Senior-Project\README!!!!!!!!!!!\Kafka_config_VM" />
@@ -1166,7 +1153,7 @@
       <workItem from="1493091326975" duration="17316000" />
       <workItem from="1493171336100" duration="2134000" />
       <workItem from="1493212769868" duration="277000" />
-      <workItem from="1493486785033" duration="2152000" />
+      <workItem from="1493486785033" duration="3439000" />
     </task>
     <task id="LOCAL-00001" summary="Added html, css, js files for widget and base site">
       <created>1490735266431</created>
@@ -1483,15 +1470,22 @@
       <option name="project" value="LOCAL" />
       <updated>1493207995420</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="added README docs for Kafka">
+      <created>1493490914444</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1493490914444</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="233918000" />
+    <option name="totallyTimeSpent" value="235205000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1515,7 +1509,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.08674304" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.09165303" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19591528" sideWeight="0.49140048" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19591528" sideWeight="0.49140048" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1537,7 +1531,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added menu favicon" />
     <MESSAGE value="fixed orientation layout of sign in page" />
     <MESSAGE value="created registration script and page and session script.  TODO: fix Postgresql reference error" />
     <MESSAGE value="refined UI design; created component for speed angle meter.  TODO: create border around speed angle meter and size correctly." />
@@ -1562,7 +1555,8 @@
     <MESSAGE value="changed php.xml to reflect correct path to composer autoload file" />
     <MESSAGE value="created README directory; started js functionality" />
     <MESSAGE value="func" />
-    <option name="LAST_COMMIT_MESSAGE" value="func" />
+    <MESSAGE value="added README docs for Kafka" />
+    <option name="LAST_COMMIT_MESSAGE" value="added README docs for Kafka" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1598,6 +1592,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+          <folding>
+            <marker date="1492725998744" expanded="true" signature="443:780" ph="INSERT INTO User_Account... " />
+            <marker date="1492725998744" expanded="true" signature="451:462" ph="INSERT INTO public.... " />
+            <marker date="1492725998744" expanded="true" signature="451:705" ph="INSERT INTO User_Account... " />
+            <marker date="1492725998744" expanded="true" signature="451:749" ph="INSERT INTO User_Account... " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1674,6 +1674,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="867">
           <caret line="51" column="86" lean-forward="false" selection-start-line="51" selection-start-column="86" selection-end-line="51" selection-end-column="86" />
+          <folding>
+            <marker date="1492910710887" expanded="true" signature="1957:2001" ph="SELECT * FRO... User_Account" />
+            <marker date="1492910710887" expanded="true" signature="1957:2035" ph="SELECT * FRO... User_Account" />
+            <marker date="1492910710887" expanded="true" signature="1957:2052" ph="SELECT * FRO... User_Account" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1818,14 +1823,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/appengine-web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README!!!!!!!!!!!/Kafka_scripts/kafka_topic">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1891,6 +1888,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/out/artifacts/Senior_Project_war_exploded/WEB-INF/appengine-web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/appengine-web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
